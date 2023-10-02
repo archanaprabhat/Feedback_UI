@@ -374,15 +374,12 @@ input:focus {
 
 .about-link {
 
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
+  left: 0;
+  right: 5px;
 
-  bottom: 20px;
-
-  right: 20px;
-
-  color: #fff;
-
-  cursor: pointer;
 
 }
 
@@ -391,7 +388,8 @@ input:focus {
 .about-link a {
 
   color: #fff;
-
+  cursor: pointer;
+  
 }
 
 
@@ -399,6 +397,7 @@ input:focus {
 .about-link a:hover {
 
   color: #ff6a95;
+
 
 }
 
